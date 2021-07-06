@@ -1,1 +1,3 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+.carousel-inner > .carousel-item > img { width:100%; height:500px; }
