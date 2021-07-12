@@ -16,7 +16,7 @@ console.log(a, '+', b, "=", suma)
     
 
 
-function sumar(a, b){
+const misuma = a => {
     console.log("Estoy sumando!!!!")
     const y = 10
     if(mivariable > 1){
@@ -24,8 +24,10 @@ function sumar(a, b){
         x = 2
     }
     console.log(a , "+", b, "=",  (a + b))
-    return a + b
+    return 5 + a
 }
 
-const misuma = sumar
-console.log("mi suma es ", misuma(4, 1))
+const sumar = (a, b) => 
+     a + b
+
+console.log("mi suma es ", sumar(3, 4))
