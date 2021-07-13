@@ -1,6 +1,13 @@
-const ciclistas = ["diego", "camilo", "diana", "oscar"];
-const tabla = [1,2,3,4,5,6,7,8,9,10]
+const ciclistas = []
+const cilista1 = {
+  "nombre": 'Pedro',
+  edad: 25,
+  distancia: function (x) {
+    return x * 8000
+  },
+  alto_rendimiento: true
+}
 
-const tabladel8 = tabla.map( numero => numero * 8 )
+ciclistas.push(cilista1)
 
-console.log(tabladel8)
+console.log(ciclistas)
