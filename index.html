@@ -153,7 +153,7 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr>
+                                                <!-- <tr>
                                                     <td>1</td>
                                                     <td>Diego Gomez</td>
                                                     <td>90 min</td>
@@ -162,7 +162,7 @@
                                                     <td>90 min</td>
                                                     <td>90 min</td>
                                                     <td><a>Ver</a></td>
-                                                </tr>
+                                                </tr> -->
                                             </tbody>
                                         </table>
                                     </div>
@@ -187,7 +187,7 @@
         </footer>
     </section>
 
-    <form id="frm-ciclista" class="needs-validation">
+    <form id="frm-ciclista" role="form" action="" method="">
 
         <div class="modal fade" id="modalAdicionarCiclista" tabindex="-1">
             <div class="modal-dialog modal-xl">
@@ -208,6 +208,11 @@
                                         <div class="invalid-feedback">
                                             Error validando nombre
                                         </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="documento_ciclista" class="form-label">Documento *</label>
+                                        <input type="text" class="form-control" name="documento_ciclista"
+                                        id="documento_ciclista" required maxlength="20" value="908765432">
                                     </div>
                                 </div>
                             </div>
